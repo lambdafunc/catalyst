@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background hexagon -->
+  <polygon 
+    points="100,20 172,60 172,140 100,180 28,140 28,60"
+    fill="#5B21B6"
+    stroke="#4C1D95"
+    stroke-width="4"
+  />
+  
+  <!-- Connected nodes representing infrastructure -->
+  <circle cx="100" cy="100" r="8" fill="#2563EB"/>
+  <circle cx="130" cy="80" r="8" fill="#0D9488"/>
+  <circle cx="70" cy="80" r="8" fill="#0D9488"/>
+  <circle cx="130" cy="120" r="8" fill="#0D9488"/>
+  <circle cx="70" cy="120" r="8" fill="#0D9488"/>
+  
+  <!-- Connection lines -->
+  <line x1="100" y1="100" x2="130" y2="80" stroke="#2563EB" stroke-width="3"/>
+  <line x1="100" y1="100" x2="70" y2="80" stroke="#2563EB" stroke-width="3"/>
+  <line x1="100" y1="100" x2="130" y2="120" stroke="#2563EB" stroke-width="3"/>
+  <line x1="100" y1="100" x2="70" y2="120" stroke="#2563EB" stroke-width="3"/>
+  
+  <!-- Cross connections -->
+  <line x1="70" y1="80" x2="130" y2="80" stroke="#0D9488" stroke-width="2"/>
+  <line x1="70" y1="120" x2="130" y2="120" stroke="#0D9488" stroke-width="2"/>
+  <line x1="70" y1="80" x2="70" y2="120" stroke="#0D9488" stroke-width="2"/>
+  <line x1="130" y1="80" x2="130" y2="120" stroke="#0D9488" stroke-width="2"/>
+</svg>
