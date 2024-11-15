@@ -3,7 +3,7 @@ Catalyst - Infrastructure Automation Framework
 """
 
 __version__ = "0.1.0"
-__author__ = "Your Name"
+__author__ = "Yogesh Upadhyay"
 __license__ = "MIT"
 
 from catalyst.core.executor import TaskExecutor
